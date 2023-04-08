@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-03-16T15:34:44 IST" name="Default suite" finished-at="2023-03-16T15:36:19 IST" duration-ms="95021">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.CucumberRunnerTests@121314f7]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2023-03-16T15:34:44 IST" name="Default test" finished-at="2023-03-16T15:36:19 IST" duration-ms="95021">
+      <class name="Runner.CucumberRunnerTests">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Runner.CucumberRunnerTests@121314f7]" started-at="2023-03-16T15:34:44 IST" name="setUpClass" finished-at="2023-03-16T15:34:44 IST" duration-ms="691" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@c3edf4c]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.CucumberRunnerTests@121314f7]" started-at="2023-03-16T15:34:44 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-16T15:35:16 IST" duration-ms="31736" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Creating Nationality Record"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["I am automation functionality of Add Nationality,Add Skills,AddJobs in Orange HRM application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.CucumberRunnerTests@121314f7]" started-at="2023-03-16T15:35:16 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-16T15:35:46 IST" duration-ms="29811" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Creating skills Record"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["I am automation functionality of Add Nationality,Add Skills,AddJobs in Orange HRM application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Runner.CucumberRunnerTests@121314f7]" started-at="2023-03-16T15:35:46 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2023-03-16T15:36:18 IST" duration-ms="32621" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Creating Job Record"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["I am automation functionality of Add Nationality,Add Skills,AddJobs in Orange HRM application"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Runner.CucumberRunnerTests@121314f7]" started-at="2023-03-16T15:36:18 IST" name="tearDownClass" finished-at="2023-03-16T15:36:19 IST" duration-ms="23" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Runner.CucumberRunnerTests -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
